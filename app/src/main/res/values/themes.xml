@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FAFAFA</item>
+        <item name="colorPrimaryDark">#FAFAFA</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">@dimen/_70sdp</item>
+        <item name="android:layout_height">@dimen/_60sdp</item>
+        <item name="android:background">@drawable/button_frame</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:fontFamily">@font/aldrich</item>
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+    <style name="ButtonStyleLandScape">
+        <item name="android:layout_width">@dimen/_65sdp</item>
+        <item name="android:layout_height">@dimen/_48sdp</item>
+        <item name="android:background">@drawable/button_frame</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:fontFamily">@font/aldrich</item>
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>
